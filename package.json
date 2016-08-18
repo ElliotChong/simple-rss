@@ -1,0 +1,40 @@
+{
+  "name": "simple-rss",
+  "version": "1.0.0",
+  "description": "A simple, promisified wrapper around the FeedParser library",
+  "main": "src/index.js",
+  "scripts": {
+	  "test": "mocha"
+  },
+  "keywords": [
+    "rss",
+    "feed",
+    "atom",
+    "rdf",
+    "xml",
+    "syndication",
+    "rsscloud",
+    "pubsubhubbub",
+    "feedparser"
+  ],
+  "author": [
+    "Elliot Chong <code+simple-rss@elliotjameschong.com>"
+  ],
+  "contributors": [
+    "Dan MacTough <danmactough@gmail.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ElliotChong/simple-rss/issues"
+  },
+  "homepage": "https://github.com/ElliotChong/simple-rss",
+  "dependencies": {
+    "feedparser": "^1.1.4",
+    "iconv": "^2.2.1",
+    "lodash": "^4.15.0",
+    "request": "^2.74.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.0.2"
+  }
+}
